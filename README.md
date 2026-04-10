@@ -1,1 +1,3 @@
-# gold-price-inflation-forecasting
+ABSTRACT
+
+Gold price forecasting is a crucial task in financial analytics due to its impact on investment decisions and economic planning. This study focuses on forecasting gold price inflation using time-series modelling techniques. Daily gold price data (10gm, 24K gold in India) from 2014 to 2026 is transformed into a monthly time series and log-transformed to stabilize variance. Statistical models such as ARIMA and Holt-Winters are implemented to capture linear trends, while Neural Networks are applied on residuals to model non-linear patterns. Hybrid models combining ARIMA/NN and Holt/NN are also evaluated. Model performance is assessed using RMSE, MAE, and MAPE. Results indicate that the Holt-Winters model outperforms all other models, providing the lowest forecasting error. The study concludes that hybrid models are not always superior and should be applied only when residuals exhibit significant non-linearity.
